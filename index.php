@@ -21,6 +21,6 @@
       ?>
 
 
-  </main><!-- End #main -->
+  </main><!-- End#main-->
 
 <?php include('include/footer.php');?>
