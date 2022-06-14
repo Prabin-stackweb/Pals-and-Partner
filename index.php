@@ -1,7 +1,7 @@
 <?php include('include/header.php');
 
       include('sections/hero-section.php')?>
-
+//main part started//
   <main id="main">
 
     <?php
