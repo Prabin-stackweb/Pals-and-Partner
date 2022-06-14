@@ -1,5 +1,5 @@
 <?php include ('include/header.php');?>
-<!-- Login css -->
+<!-- Login css-->
 <link rel="stylesheet" href="assets/css/login.css">
 
     <div class="main">
@@ -44,7 +44,7 @@
     </div>
 
     <script>
-    //User Login
+    //User Login java
     $('#login-form').submit(function(e) {
       e.preventDefault();
       console.log($(this).serialize());
