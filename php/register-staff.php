@@ -17,8 +17,7 @@
           $password=password_hash($password, PASSWORD_BCRYPT);
         }
 
-
-        $email_check_query = "SELECT * FROM user WHERE email='$email' LIMIT 1";
+$email_check_query = "SELECT * FROM user WHERE email='$email' LIMIT 1";
         $result = mysqli_query($mysqli, $email_check_query);
         $user = mysqli_fetch_assoc($result);
 
