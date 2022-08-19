@@ -3,8 +3,7 @@
 <link rel="stylesheet" href="assets/css/login.css">
 
     <div class="main">
-
-      <?php if($isLoggedIn){
+<?php if($isLoggedIn){
         echo '<script type="text/javascript">',
            'redirectToIndex();',
            '</script>'
