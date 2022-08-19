@@ -50,5 +50,5 @@ if (!isset($_POST["txn_id"]) && !isset($_POST["txn_type"])) {
     exit();
 
 } else {
-    // Handle the PayPal response.//
+    // Handle the PayPal response.
 }
