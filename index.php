@@ -7,7 +7,7 @@
     <?php
           include('sections/clients-section.php');
 
-          include('sections/about-section.php');
+        include('sections/about-section.php');
 
           include('sections/tabs-section.php');
 
@@ -19,8 +19,6 @@
 
           include('sections/contact-section.php');
       ?>
-
-
-  </main><!-- End#main-->
+ </main><!-- End#main-->
 
 <?php include('include/footer.php');?>
