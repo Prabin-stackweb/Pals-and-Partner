@@ -16,7 +16,3 @@
     $address=$user_details['address'];
     $type=$user_details['type'];
 ?>
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Terms

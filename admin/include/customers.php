@@ -34,8 +34,6 @@
                    $sn++;
                    }
                  ?>
-
-
                </tbody>
            </table>
        </div>

@@ -79,26 +79,83 @@ function getStaff(){
 }
 
 
-function addPayment($data) {
-    global $db;
+function getStaffById($id){
+  global $mysqli;
+  $query="SELECT * FROM user WHERE id='$id' limit 1";
+  $result=mysqli_query($mysqli,$query);
+  return $result;
+}
 
-    if (is_array($data)) {
-        $stmt = $db->prepare('INSERT INTO `payments` (txnid, payment_amount, payment_status, itemid, createdtime) VALUES('txnid', 'payment_amount', 'payment_status', , 'itemid')');
-        $stmt->bind_param(
-            'sdsss',
-            $data['txn_id'],
-            $data['payment_amount'],
-            $data['payment_status'],
-            $data['item_number'],
-            date('Y-m-d H:i:s')
-        );
-        $stmt->execute();
-        $stmt->close();
+function getAdmin(){
+  global $mysqli;
+  $query="SELECT id,name,email,phone,address,status FROM user WHERE type='admin';";
+  $result=mysqli_query($mysqli,$query);
+  return $result;
+}
 
-        return $db->insert_id;
-    }
+function getAppointments(){
+  global $mysqli;
+  $query="SELECT * FROM appointments WHERE status != 'Unpaid'";
+  $result=mysqli_query($mysqli,$query);
+  return $result; 
+}
 
-    return false;
+function getAvailability($id){
+  global $mysqli;
+  $query="SELECT * FROM availabilty WHERE staff_id='$id';";
+  $result=mysqli_query($mysqli,$query);
+  return $result;
+}
+
+function getCleaningType(){
+  global $mysqli;
+  $query="SELECT * FROM cleaningtype";
+  $result=mysqli_query($mysqli,$query);
+  return $result; 
+}
+
+function getCleaningTypeSingle($id){
+  global $mysqli;
+  $query="SELECT * FROM cleaningtype WHERE id='$id' LIMIT 1";
+  $result=mysqli_query($mysqli,$query);
+  return $result; 
+}
+
+
+function getProducts(){
+  global $mysqli;
+  $query="SELECT * FROM products";
+  $result=mysqli_query($mysqli,$query);
+  return $result; 
+}
+ 
+function getProductSingle($id){
+  global $mysqli;
+  $query="SELECT * FROM products WHERE id='$id' LIMIT 1";
+  $result=mysqli_query($mysqli,$query);
+  return $result; 
+}
+
+function getOrders(){
+  global $mysqli;
+  $query="SELECT * FROM orders";
+  $result=mysqli_query($mysqli,$query);
+  return $result; 
+}
+
+function getOrderProducts($id){
+  global $mysqli;
+  $query="SELECT * FROM ordered_products WHERE order_id=".$id;
+  $result=mysqli_query($mysqli,$query);
+  return $result; 
+}
+
+function getUserData($id){
+  global $mysqli;
+
+  $query="SELECT * FROM user WHERE id='$id' LIMIT 1";
+  $result=mysqli_query($mysqli,$query);
+  return $result; 
 }
 ?>
 
