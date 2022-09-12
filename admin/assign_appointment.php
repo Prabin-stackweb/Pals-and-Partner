@@ -12,7 +12,7 @@
     <div id="page-inner">
         <?php include('include/assign_appointment.php');?>
         <footer>
-        <p>Copyright Pals and Partners. All Rights Reserved</a></p>
+        <p>Copyright Pals and Partners.All Rights Reserved</a></p>
       </footer>
 
     </div>
