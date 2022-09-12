@@ -14,7 +14,7 @@
         if ($user['email'] === $email) {
             $auth=password_verify($password, $user['password']); //true or false
             if ($auth) {
-                session_start();
+                @session_start();
                 $_SESSION['id'] = $user['id'];
                 $_SESSION['email'] = $email;
                 $_SESSION['username'] = $user['name'];
@@ -22,8 +22,6 @@
                 $_SESSION['logged'] = true;
 
                 echo true;
-
-
             } else {
                 echo "Wrong Password!";
             }
@@ -31,5 +29,5 @@
     }
     else
         echo 'User Doesnot exist';
-     };
-    ?>
+    };
+?>
