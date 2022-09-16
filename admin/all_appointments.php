@@ -19,6 +19,7 @@
     <!-- /. PAGE INNER  -->
 
 </div>
+skjdas
 <!-- /. PAGE WRAPPER  -->
 
 <?php include('include/footer.php');?>
