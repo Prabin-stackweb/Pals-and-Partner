@@ -27,4 +27,3 @@
 			<!-- /. PAGE WRAPPER  -->
 
 <?php include('include/footer.php');?>
-a
