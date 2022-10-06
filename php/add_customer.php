@@ -43,6 +43,7 @@
                 array_push($errors, "Server Error.");
                 echo $errors[0].$mysqli -> error;
         }
+		
 	}
 
 
