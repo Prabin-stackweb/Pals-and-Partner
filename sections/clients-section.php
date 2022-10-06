@@ -1,6 +1,8 @@
 <!-- ======= Clients Section ======= -->
 <section id="clients" class="clients">
+  
   <div class="container-fluid" data-aos="zoom-in">
+    
     <div class="row justify-content-center">
       <div class="col-xl-10">
         <div class="owl-carousel clients-carousel">
