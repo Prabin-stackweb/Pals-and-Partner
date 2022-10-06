@@ -10,7 +10,7 @@
       $user = mysqli_fetch_assoc($result);
 
 
-      if ($user) { // if user exists
+      if ($user) { // if the user exists
         if ($user['email'] === $email) {
             $auth=password_verify($password, $user['password']); //true or false
             if ($auth) {
