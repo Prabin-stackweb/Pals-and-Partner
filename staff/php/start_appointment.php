@@ -16,5 +16,3 @@
         echo 'No Data';
      }
     ?>
-a
-
