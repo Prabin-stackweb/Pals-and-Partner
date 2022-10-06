@@ -1,5 +1,6 @@
 <?php
     include 'db_conn.php';
+
     $errors=array();
 
 	if($_POST){
