@@ -9,6 +9,7 @@ if(isset($_SESSION['logged']) && ($_SESSION['logged'] == 1)){
 }
 ?>
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
