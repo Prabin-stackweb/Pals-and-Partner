@@ -94,7 +94,4 @@ if(isset($_SESSION['logged']) && ($_SESSION['logged'] == 1)){
         }
     });
     });
-      hello
-    
-
     </script>
