@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="assets/css/profile.css">
 
 <div class="container emp-profile">
+  
   <div class="row">
       <div class="col-md-4">
           <div class="profile-img">
