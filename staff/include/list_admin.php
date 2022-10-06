@@ -1,5 +1,6 @@
 <!--    Hover Rows  -->
 <div class="panel panel-default">
+   
    <div class="panel-heading">
        List of Admin
    <section align="right">  <a href="../add_admin.php"> <button style="color:#f26a5a">Add New Admin <i class="fa fa-plus" style="color:#f26a5a"></i></button></a> </section>
