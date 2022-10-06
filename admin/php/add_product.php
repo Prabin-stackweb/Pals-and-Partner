@@ -5,7 +5,7 @@
         $price          = mysqli_escape_string($mysqli, $_POST['price']);
         $description    = mysqli_escape_string($mysqli, $_POST['description']);
  
-        // upload file
+        // upload this file
         $target_dir     = "../../assets/uploads/";
         $file_name      = time().basename($_FILES["image"]["name"]);
         
