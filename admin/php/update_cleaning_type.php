@@ -9,7 +9,7 @@
           $type     = mysqli_escape_string($mysqli,$_POST['type']);
           $price    = mysqli_escape_string($mysqli,$_POST['price']); 
 
-            // upload file
+            // to upload file
             if($_FILES['image']['error'] == 0):
                 $target_dir     = "../../assets/uploads/";
                 $file_name      = time().basename($_FILES["image"]["name"]);
