@@ -1,8 +1,10 @@
 <!-- ======= Contact Section ======= -->
 <section id="contact" class="contact">
+  
   <div class="container" data-aos="fade-up">
 
     <div class="section-title">
+      
       <h2>Contact</h2>
       <p>If you want to request a service, discuss an existing appointment, learn more about our franchise opportunities, collaborate with us on an exiting project or drop us a line about your service experience, use the form below and we'll get in touch shortly!</p>
     </div>
