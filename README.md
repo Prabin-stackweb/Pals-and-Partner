@@ -1,26 +1,26 @@
 # Pals-and-Partner
 
-Welcome to Pals And Partner Cleaning Service PHP Script
+Welcome to Pals And Partner Cleaning Service PHP Script<br>
 
-**Overview**
+**Overview** <br>
 We would like you to thank you for purchasing Pals and Partner Cleaning Service PHP script for your business. We are pleased you have chosen Pals and Partner Cleaning PHP script for your business, you will not be disappointed! Before you get started please be sure to always check out these documentation files. We outline all kinds of good information and provide you all the details you need to install and run the system . This CRM is build for only Pals and Partner Cleaning Company , if you want to get your custom build CRM for your company please contact us at admin@palsandpartner.stackweb.com.au.
 If you are unable to find your answer here in our documentation, watch our Video Tutorials, you can also visit our Help & Support. Chances are your question or issue has been brought up already and the answer is waiting to be found. If you are unable to find it anywhere, then please go to our Support section and open a new Support Ticket with all the details we need. Please be sure to include your site URL as well. Thank you, we hope you enjoy using Pals and Partner PHP script. 
 
 **System Requirements**
-Domain/Subdomain
-Web Hosting
-PHP>=7.1.0
-cPanel
-Webmail by cPanel
-Version 2.1.3
+Domain/Subdomain<br>
+Web Hosting<br>
+PHP>=7.1.0<br>
+cPanel<br>
+Webmail by cPanel<br>
+Version 2.1.3<br>
 
 **Team Members**
-Prabin Bhattarai(30390581)(Full stack developer)
-Sampurna Thapa magar(30389924)(Frontend and Backend Developer, Scrum Master)
-Nilaja Dahal(30379754)(Frontend and backend Designer)
-Dipesh Malla(30402005)(Tester, Documentation Master)
+Prabin Bhattarai(30390581)(Full stack developer)<br>
+Sampurna Thapa magar(30389924)(Frontend and Backend Developer, Scrum Master)<br>
+Nilaja Dahal(30379754)(Frontend and backend Designer)<br><br>
+Dipesh Malla(30402005)(Tester, Documentation Master)<br>
 
-Client: Sudip Sinju
+Client: Sudip Sinju<br>
 
 
 **Installation Guide**
