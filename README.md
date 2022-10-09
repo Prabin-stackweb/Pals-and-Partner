@@ -51,13 +51,13 @@ Now finally your databases has been imported successfully. You Can see all the t
  
 **Editing Database Connection File(dbconnect.php)**
 Open File Manager and Edit  all the dbconn.php files credentials 
-Change the connection file as 
-(“host”, “database_user”, “user_password”, “databasename”) for following file
+Change the connection file as <br>
+(“host”, “database_user”, “user_password”, “databasename”) for following file<br>
 
-Main Folder>Php>dbconn.php
-Admin>Php>dbconn.php
-Staff>Php>dbconn.php
-Customer>Php>dbconn.php
+Main Folder>Php>dbconn.php<br>
+Admin>Php>dbconn.php<br>
+Staff>Php>dbconn.php<br>
+Customer>Php>dbconn.php<br>
 
 **Editing Webmail Notification File:**
 Please Edit following file with appropriate credential you want to receive notification to
@@ -72,26 +72,26 @@ Please edit following API detail and replace with your own by creating from Payp
 Customer>include>payforappointment.php
 
 **Running the Website**
-Now Enter the Web address(domain/subdomain) in the browser where you have installed the PHP script (Note: Please make sure Cpanel cache is cleared so that everything is loaded instantly)
+Now Enter the Web address(domain/subdomain) in the browser where you have installed the PHP script<br> (Note: Please make sure Cpanel cache is cleared so that everything is loaded instantly)
  
 
 
 **Get support**
-Support: admin@palsandpartner.stackweb.com.au
-Web        : http://palsandpartner.stackweb.com.au/ 
+Support: admin@palsandpartner.stackweb.com.au<br>
+Web        : http://palsandpartner.stackweb.com.au/ <br>
 
 **Credentials: **
 
-customerpalsandpartner@stackweb.com.au 
-staffpalsandpartner@stackweb.com.au 
-adminpalsandpartner@stackweb.com.au 
-Password:12345678 
+customerpalsandpartner@stackweb.com.au <br>
+staffpalsandpartner@stackweb.com.au <br>
+adminpalsandpartner@stackweb.com.au <br>
+Password:12345678 <br>
 
 **PayPal sandbox account **
 
-credential to check the payment 
-adminpalsandpartner@stackweb.com.au 
-12345678 
+credential to check the payment <br>
+adminpalsandpartner@stackweb.com.au <br>
+12345678 <br>
 
 **Product Walkthrough**
 
@@ -103,39 +103,39 @@ https://youtu.be/x9zzgmgcso8?t=178
 
 **September 29,2022 V2.1.3**
 
-Fixed Email Notification for Staff, customer and Admin
-Appointment Job status Live Update Feature Released
+Fixed Email Notification for Staff, customer and Admin<br>
+Appointment Job status Live Update Feature Released<br>
 
 **September  12,2022 V2.1.2**
 
-Released admin access to create and manage customer/staff/Admin
-Fixed transaction status for bookings and Orders
-Released Add product features for Admin
-Fixed Staff availability options
-Fixed bug in Ecommerce features
+Released admin access to create and manage customer/staff/Admin<br>
+Fixed transaction status for bookings and Orders<br>
+Released Add product features for Admin<br>
+Fixed Staff availability options<br>
+Fixed bug in Ecommerce features<br>
 
 **August 26,2022 V2.1.0**
 
-Released Appointment Booking for Customers
-Released Job assigning for Admin and Staff
-Released Manage Booking Feature for Staff/customer and Admin
-Released Edit profile for Staff
+Released Appointment Booking for Customers<br>
+Released Job assigning for Admin and Staff<br>
+Released Manage Booking Feature for Staff/customer and Admin<br>
+Released Edit profile for Staff<br>
 
 **June 15,2022 V1.3.0**
 
-Released View quote request for Admin
-Released Staff active/inactive status for Admin
-Released Edit profile for Admin/Customer
+Released View quote request for Admin<br>
+Released Staff active/inactive status for Admin<br>
+Released Edit profile for Admin/Customer<br>
 
 **June 1,2022 V1.2.0**
 
-Released Staff registration for Admin
-Released Customer/Admin Login/signup
-Fixed Delete option for Admin inorder to Manage customer
-Released contact Us form request for Admin
+Released Staff registration for Admin<br>
+Released Customer/Admin Login/signup<br>
+Fixed Delete option for Admin inorder to Manage customer<br>
+Released contact Us form request for Admin<br>
 
 **May 20,2022 V1.0.0**
 
-Designed Frontend/Backend Web design
+Designed Frontend/Backend Web design<br>
 
 
