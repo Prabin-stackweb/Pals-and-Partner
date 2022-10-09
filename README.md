@@ -98,3 +98,44 @@ adminpalsandpartner@stackweb.com.au
 **Video Walkthrough**
 
 https://youtu.be/x9zzgmgcso8?t=178
+
+**Changelog**
+
+**September 29,2022 V2.1.3**
+
+Fixed Email Notification for Staff, customer and Admin
+Appointment Job status Live Update Feature Released
+
+**September  12,2022 V2.1.2**
+
+Released admin access to create and manage customer/staff/Admin
+Fixed transaction status for bookings and Orders
+Released Add product features for Admin
+Fixed Staff availability options
+Fixed bug in Ecommerce features
+
+**August 26,2022 V2.1.0**
+
+Released Appointment Booking for Customers
+Released Job assigning for Admin and Staff
+Released Manage Booking Feature for Staff/customer and Admin
+Released Edit profile for Staff
+
+**June 15,2022 V1.3.0**
+
+Released View quote request for Admin
+Released Staff active/inactive status for Admin
+Released Edit profile for Admin/Customer
+
+**June 1,2022 V1.2.0**
+
+Released Staff registration for Admin
+Released Customer/Admin Login/signup
+Fixed Delete option for Admin inorder to Manage customer
+Released contact Us form request for Admin
+
+**May 20,2022 V1.0.0**
+
+Designed Frontend/Backend Web design
+
+
