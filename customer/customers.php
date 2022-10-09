@@ -3,7 +3,7 @@
 	include('php/functions.php');
 ?>
 
-				<div id="page-wrapper">
+		<div id="page-wrapper">
 					<div class="header">
 					  <h1 class="page-header">
 					      Customers
