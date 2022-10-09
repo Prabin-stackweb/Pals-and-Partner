@@ -1,8 +1,7 @@
 <?php
     include 'db_conn.php';
     $errors=array();
-
-	if($_POST){
+  if($_POST){
         $name= mysqli_escape_string($mysqli, $_POST['name']);
         $email= preg_replace("/\s+/", "", mysqli_escape_string($mysqli, $_POST['email']));
         $password= mysqli_escape_string($mysqli, $_POST['pass']);
